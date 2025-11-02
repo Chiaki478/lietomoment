@@ -6,25 +6,30 @@
 <title>Lieto momént｜アクセス</title>
 <meta name="description" content="自由が丘・託児所付きヘアサロン『Lieto momént（リエート モメント）』へのアクセス・営業時間・ご予約案内。">
 <style>
-  :root{--bg:#FFF7F4;--brand:#E5C9BD;--accent:#B58B6B;--text:#5A3B2E;--muted:#8D6E63;--chip:#F3E3DB;--radius:16px;}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);
-       font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',Roboto,Segoe UI,Arial,sans-serif;line-height:1.7;}
-  a{color:var(--accent);text-decoration:none}
-  .wrap{max-width:720px;margin:0 auto;padding:20px 16px 56px;}
-  .header{background:#fff;border:1px solid #f0e3dd;border-radius:var(--radius);padding:22px 16px;margin:14px 0;box-shadow:0 4px 14px rgba(181,139,107,.08);text-align:center;}
-  .nav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:8px}
-  .nav a{display:inline-block;padding:8px 12px;border:1px solid #e7d7cf;border-radius:999px;background:#fff;color:#51362b;font-weight:600;font-size:13px;}
-  h1{font-size:22px;margin:4px 0 6px;letter-spacing:.04em;}
-  h2{font-size:18px;margin:12px 0 8px;}
-  .card{background:#fff;border:1px solid #f0e3dd;border-radius:var(--radius);padding:18px 16px;margin:14px 0;box-shadow:0 4px 14px rgba(181,139,107,.06);}
-  .row{display:grid;grid-template-columns:1fr;gap:12px}
-  .map{width:100%;height:340px;border:0;border-radius:12px}
-  .btn{display:inline-block;text-align:center;padding:14px 16px;border-radius:12px;background:var(--accent);color:#fff;font-weight:700}
-  .btn.sub{background:#5A3B2E;}
-  .kv{font-size:12px;color:#7b6258}
-  .list{margin:0;padding-left:18px}
-  footer{margin-top:28px;font-size:12px;color:#7b6258;text-align:center}
+  :root {--bg:#FFF7F4;--brand:#E5C9BD;--accent:#B58B6B;--text:#5A3B2E;--muted:#8D6E63;--radius:16px;}
+  * {box-sizing:border-box;}
+  body {margin:0;background:var(--bg);color:var(--text);
+        font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',Roboto,Segoe UI,Arial,sans-serif;line-height:1.7;}
+  a {color:var(--accent);text-decoration:none;}
+  .wrap {max-width:720px;margin:0 auto;padding:20px 16px 56px;}
+  .header {background:#fff;border:1px solid #f0e3dd;border-radius:var(--radius);
+           padding:22px 16px;margin:14px 0;box-shadow:0 4px 14px rgba(181,139,107,.08);text-align:center;}
+  .nav {display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:8px;}
+  .nav a {display:inline-block;padding:8px 12px;border:1px solid #e7d7cf;border-radius:999px;background:#fff;
+          color:#51362b;font-weight:600;font-size:13px;}
+  h1 {font-size:22px;margin:4px 0 6px;letter-spacing:.04em;}
+  h2 {font-size:18px;margin:12px 0 8px;}
+  .card {background:#fff;border:1px solid #f0e3dd;border-radius:var(--radius);
+         padding:18px 16px;margin:14px 0;box-shadow:0 4px 14px rgba(181,139,107,.06);}
+  .row {display:grid;grid-template-columns:1fr;gap:12px;}
+  .map {width:100%;height:340px;border:0;border-radius:12px;}
+  .btn {display:inline-block;text-align:center;padding:14px 16px;border-radius:12px;background:var(--accent);
+        color:#fff;font-weight:700;}
+  .btn.sub {background:#5A3B2E;}
+  .btn.gray {background:#7b6258;}
+  .kv {font-size:12px;color:#7b6258;}
+  .list {margin:0;padding-left:18px;}
+  footer {margin-top:28px;font-size:12px;color:#7b6258;text-align:center;}
 </style>
 </head>
 <body>
@@ -43,7 +48,12 @@
     <h2>所在地</h2>
     <p>東京都目黒区自由が丘</p>
     <div class="row">
-      <!-- Google Map iframe は既存のものをご利用ください（ここでは省略） -->
+      <iframe class="map" loading="lazy" allowfullscreen
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51894.36558574545!2d139.65068515204847!3d35.60812751799338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4e1c51d4547%3A0x395db73328f5ec1!2z5pel5pys44CB44CSMTUyLTAwMzUg5p2x5Lqs6YO955uu6buS5Yy66Ieq55Sx44GM5LiY!5e0!3m2!1sja!2sjp!4v1762032713202!5m2!1sja!2sjp"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p style="text-align:center;margin:0;">
+        <a class="btn gray" href="https://maps.app.goo.gl/cEBFJ9um1MEgbvtR7" target="_blank" rel="noopener">Googleマップで開く</a>
+      </p>
     </div>
   </div>
 
@@ -52,6 +62,15 @@
     <ul class="list">
       <li>営業時間：10:00〜20:00</li>
       <li>定休日：水曜</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>アクセス方法</h2>
+    <ul class="list">
+      <li>東急東横線・大井町線「自由が丘駅」正面口より徒歩約3分</li>
+      <li>ベビーカーのまま入店OK／エレベーター有り</li>
+      <li>近隣コインパーキング有り（徒歩1〜3分）</li>
     </ul>
   </div>
 
